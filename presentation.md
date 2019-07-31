@@ -31,10 +31,16 @@ class: center, middle, animation-fade
 
 ---
 layout: false
+# 今日の資料
+.center[
+## http://bit.ly/MonacaEasyStartApp
+]
+
+---
 # 教えてくれる人
-## 池田 夏藻（イケダ ナツモ）
 
 .col-7[
+## 池田 夏藻（イケダ ナツモ）
 富士通クラウドテクノロジーズ株式会社<br>
 ニフクラ mobile backend 企画チームに所属<br><br>
 <img src="readme-img/mb_logo.png" alt="mb_logo.png" width="500px">
@@ -43,7 +49,7 @@ layout: false
 
 .col-5[
 .center[
-<img src="readme-img/takano.png" alt="takano.png" width="140px">
+<img src="readme-img/takano.png" alt="takano.png" width="300px">
 .size_small_7[
 ニフクラ mobile backend オリジナルキャラクター タカノくん
 ]
@@ -99,7 +105,7 @@ layout: false
   1.&nbsp;プロフィールアプリの下書き
 ]
 
-ワークシートに作成する内容をプロフィールアプリの下書きしましょう。
+ワークシートに作成する内容をプロフィールアプリの下書きをしましょう。
 
 .center[<img src="readme-img/draft.png" alt="draft.png" width="280px">]
 
@@ -394,7 +400,7 @@ Monacaアカウントの作成は完了です🎉<br>
 
 ## プロジェクトを作る
 
-右側に画面が開きます。 「クラウドIDEで開く」をクリックします。
+右に画面が開きます。「クラウドIDEで開く」をクリックします。
 
 .center[<img src="readme-img/Monaca05.png" alt="Monaca05.png" width="800px">]
 
@@ -431,7 +437,7 @@ Monacaの開発画面は次のようになっています。
   3.&nbsp;Monacaの使い方練習
 ]
 
-それでは使い方の練習をしていきましょう。最初から開かれている index.html ファイルをみてください。 `<body>`と`</body>`の間に書かれた文字がプレビュー画面にも出ていますね👀
+使い方の練習をしていきましょう。編集画面に初めから開かれている .color_pink[__index.html__] ファイルをみてください。<br>`<body>`と`</body>`の間に書かれた文字がプレビュー画面にも出ていますね👀
 
 .center[<img src="readme-img/Monaca06-3.png" alt="Monaca06-3.png" width="750px">]
 
@@ -441,8 +447,8 @@ Monacaの開発画面は次のようになっています。
 ]
 
 `<body>`,`</body>` は「.color_pink[__bodyタグ__]」と言います。<br>
-bodyタグの間に記述した内容がアプリの画面に表示される仕組みになっています。<br>
-bodyタグ内を全て消してみましょう。<br><br>
+bodyタグの間に書いた内容がアプリの画面に表示される仕組みになっています。<br>
+一度bodyタグ内を全て消して書き直してみましょう。<br><br>
 
 .center[<img src="readme-img/Monaca07.png" alt="Monaca07.png" width="500px">]
 
@@ -451,7 +457,7 @@ bodyタグ内を全て消してみましょう。<br><br>
   3.&nbsp;Monacaの使い方練習
 ]
 
-消したところに「こんにちは！」と書いてみましょう。<br><br>
+全部消したら「__こんにちは！__」と書いてみましょう。<br><br>
 
 .center[<img src="readme-img/Monaca07-2.png" alt="Monaca07-2.png" width="500px">]
 
@@ -460,8 +466,8 @@ bodyタグ内を全て消してみましょう。<br><br>
   3.&nbsp;Monacaの使い方練習
 ]
 
-あれ？編集したけどプレビュー画面が変わらないね😢<br>
-プレビュー画面に反映させるには編集したファイル index.html の.color_pink[__保存__]が必要です。<br>保存するには「.color_pink[__Ctrl]__」+「.color_pink[__S__]」キーを同時に押してみましょう。
+あれ？書き直したけどプレビュー画面が変わらないね😢<br>
+プレビュー画面に正しく表示させるには編集したファイル（index.html）を.color_pink[__保存__]しなければなりません。<br>「.color_pink[__Ctrl]__」+「.color_pink[__S__]」キーを同時に押して、保存をしてみましょう。
 
 .center[<img src="readme-img/Monaca08.png" alt="Monaca08.png" width="700px">]
 
@@ -489,11 +495,12 @@ layout: false
   4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
 ]
 
-下書きを元に、`<body>`と`</body>`の間を編集してプロフィールアプリを作ってみましょう！完成イメージはこんな感じです。
+さっき下書きした内容をアプリに表示するように`<body>`と`</body>`の間に書き込んで行きましょう。<br>
+完成イメージはこんな感じです。
 
-.center[<img src="readme-img/complete.png" alt="complete.png" width="200px">]
+.center[<img src="readme-img/complete.png" alt="complete.png" width="180px">]
 
-作業に入る前にいくつかパーツを紹介します☝️
+でもどうやって書いたらいいのかな？？書くために必要なパーツを教えます☝️
 
 
 
@@ -502,10 +509,10 @@ layout: false
   4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
 ]
 
-* 見出し（タイトル・サブタイトル・小見出し）
- * 見出しにしたい部分を h1タグ（ `<h1>`, `</h1>` ）で囲む
- * h1タグで指定した見出しの中の小見出しには h2タグ を使う
- * h1, h2, h3, …と見出しの大きさは１が一番大きく、数字が大きくなると小さくなります
+## 見出し（タイトル・サブタイトル・小見出し）
+* 見出しにしたい部分を h1タグ（ `<h1>`, `</h1>` ）で囲む
+* h1タグで囲った見出しより小さい見出しには h2タグ を使います
+* h1, h2, h3, …と見出しの大きさは１が一番大きく、数字が大きくなると小さくなります
 
 ```html
 <h1>見出し1</h1>
@@ -513,7 +520,20 @@ layout: false
 <h3>見出し3</h3>
 ```
 
-.center[<img src="readme-img/Monaca10.png" alt="Monaca10.png" width="750px">]
+---
+.bottom-bar[
+  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
+]
+
+## 見出し（タイトル・サブタイトル・小見出し）
+
+```html
+<h1>見出し1</h1>
+<h2>見出し2</h2>
+<h3>見出し3</h3>
+```
+
+.center[<img src="readme-img/Monaca10.png" alt="Monaca10.png" width="700px">]
 
 
 ---
@@ -521,8 +541,21 @@ layout: false
   4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
 ]
 
-* 段落（自己紹介文）
-  * 段落にしたい部分を pタグ（ `<p>`, `</p>` ）で囲む
+## 段落（自己紹介文）
+* 段落にしたい部分を pタグ（ `<p>`, `</p>` ）で囲む
+
+```html
+<p>段落1</p>
+<p>段落2</p>
+<p>段落3</p>
+```
+
+---
+.bottom-bar[
+  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
+]
+
+## 段落（自己紹介文）
 
 ```html
 <p>段落1</p>
@@ -537,7 +570,19 @@ layout: false
   4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
 ]
 
-見出しと段落を組み合わせてプロフィールアプリの下書きの内容を画面の中に作ってみましょう！
+### タグを使わないで書くとどうなるの？
+
+改行（次の行にかわること）して書いても、<br>アプリ側では改行されずに表示されてしまいます😖
+
+.center[<img src="readme-img/Monaca11-1.png" alt="Monaca11-1.png" width="750px">]
+
+
+---
+.bottom-bar[
+  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
+]
+
+.color_pink[__見出し__]と.color_pink[__段落__]を組み合わせて、下書きした内容を画面の中に作ってみましょう！
 
 .center[<img src="readme-img/draft_sample-2.png" alt="draft_sample-2.png" width="280px">]
 
@@ -546,7 +591,7 @@ layout: false
   4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
 ]
 
-見出しと段落を組み合わせてプロフィールアプリの下書きの内容を画面の中に作ってみましょう！
+.color_pink[__見出し__]と.color_pink[__段落__]を組み合わせて、下書きした内容を画面の中に作ってみましょう！
 
 ```html
 <h1>私のホームページアプリ</h1>
@@ -558,28 +603,64 @@ layout: false
 <p>バスケ、算数</p>
 ```
 
-.center[<img src="readme-img/Monaca12.png" alt="Monaca12.png" width="750px">]
+---
+.bottom-bar[
+  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
+]
+
+.color_pink[__見出し__]と.color_pink[__段落__]を組み合わせて、下書きした内容を画面の中に作ってみましょう！
+
+.center[<img src="readme-img/Monaca12.png" alt="Monaca12.png" width="950px">]
 
 ---
 .bottom-bar[
   4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
 ]
 
+## 画像
+
 文字の入力が終わったら、画像を入れてみましょう！（ちょっと難しくなるよ🙌）
 
-* 画像を用意しましょう
-  * ブラウザの別のタブを開いて、好きな画像をパソコンに保存しましょう
-    * ファイル名「__image.png__」
-    * 保存場所「__デスクトップ__」
+### 画像の準備
+
+ブラウザで別のタブを開いて、好きな画像を探しましょう。
+
+.col-7[
+＜例＞
+* この資料 http://bit.ly/MonacaEasyStartApp を開いて、タカノくんの画像（４ページ目）を使うことにする。
+]
+
+.col-5[
+.center[
+<img src="readme-img/takano.png" alt="takano.png" width="200px">
+.size_small_7[
+]
+]
+]
+
+---
+.bottom-bar[
+  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
+]
+
+## 画像
+
+画像の上で右クリックをして、「名前を付けて保存」をクリックします。<br>
+保存場所、ファイル名は次のようにしましょう。
+
+* 保存場所「__デスクトップ__」
+* ファイル名「__image.png__」
+
+---
+.bottom-bar[
+  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
+]
+
+## 画像
+
 * 用意した画像をアプリで表示するために、Monacaに画像をインポートしましょう
   * 画像を取り込むことを「インポート」すると言います☝️
 
-.center[
-<img src="readme-img/takano.png" alt="takano.png" width="150px">
-.size_small_7[
-ニフクラ mobile backend オリジナルキャラクター タカノくん
-]
-]
 
 ---
 .bottom-bar[
