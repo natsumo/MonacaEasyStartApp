@@ -572,7 +572,7 @@ layout: false
 
 ### タグを使わないで書くとどうなるの？
 
-改行（次の行にかわること）して書いても、<br>アプリ側では改行されずに表示されてしまいます😖
+改行（行がかわること）して書いても、<br>アプリ側では改行されずに表示されてしまいます😖
 
 .center[<img src="readme-img/Monaca11-1.png" alt="Monaca11-1.png" width="750px">]
 
@@ -621,20 +621,31 @@ layout: false
 
 文字の入力が終わったら、画像を入れてみましょう！（ちょっと難しくなるよ🙌）
 
+.center[
+<img src="readme-img/takano.png" alt="takano.png" width="300px">
+]
+
+
+---
+.bottom-bar[
+  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
+]
+
+## 画像
 ### 画像の準備
 
-ブラウザで別のタブを開いて、好きな画像を探しましょう。
+ブラウザで別のタブを開いて、好きな画像を探しましょう。<br>
+画像が決まったら画面に表示しておきましょう。
 
 .col-7[
 ＜例＞
-* この資料 http://bit.ly/MonacaEasyStartApp を開いて、タカノくんの画像（４ページ目）を使うことにする。
+* http://bit.ly/mb_takano をブラウザの別のタブで開く
+* タカノくんの画像が表示される
 ]
 
 .col-5[
 .center[
 <img src="readme-img/takano.png" alt="takano.png" width="200px">
-.size_small_7[
-]
 ]
 ]
 
@@ -644,13 +655,133 @@ layout: false
 ]
 
 ## 画像
+### 画像の準備
 
-画像の上で右クリックをして、「名前を付けて保存」をクリックします。<br>
-保存場所、ファイル名は次のようにしましょう。
+画像の上で右クリックをして、「名前を付けて画像を保存」をクリックします。
 
+.center[
+<img src="readme-img/Monaca45.png" alt="Monaca45.png" width="450px">
+]
+
+---
+.bottom-bar[
+  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
+]
+
+## 画像
+### 画像の準備
+
+保存画面が開いたら、保存場所とファイル名を次のようにしましょう。
+
+.col-5[
 * 保存場所「__デスクトップ__」
 * ファイル名「__image.png__」
 
+できたら「保存」をクリックします。
+]
+
+.col-7[
+.center[
+<img src="readme-img/Monaca46.png" alt="Monaca46.png" width="550px">
+]
+]
+
+---
+.bottom-bar[
+  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
+]
+
+## 画像
+### 画像の準備
+
+デスクトップを確認しましょう。画像が表示されていればOKです。
+
+.center[
+<img src="readme-img/Monaca47.png" alt="Monaca47.png" width="600px">
+]
+
+---
+.bottom-bar[
+  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
+]
+
+## 画像
+### Monacaへのインポート
+
+用意した画像をアプリで表示するために、Monacaにインポート（Monacaに取り込むこと）しましょう。<br>
+ブラウザで先ほど開いていた.color_pink[__Monacaの開発画面のタブ__]を開きます。<br>
+（先ほどの画面に戻ります。）
+
+.center[
+<img src="readme-img/Monaca48.png" alt="Monaca48.png" width="600px">
+]
+
+---
+.bottom-bar[
+  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
+]
+
+## 画像
+.col-5[
+### Monacaへのインポート
+
+編集している index.html と同じ場所に画像をインポートしましょう。<br>
+ファイルディレクトリ画面の index.html で.color_pink[__右クリック__]をします。開いた項目の「ファイルをアップロード」をクリックします。
+]
+
+.col-7[
+.center[<img src="readme-img/Monaca13.png" alt="Monaca13.png" width="250px">]
+]
+
+---
+.bottom-bar[
+  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
+]
+
+## 画像
+### Monacaへのインポート
+
+.col-5[
+デスクトップに用意した画像をファイルアップロード画面に.color_pink[__ドラッグ＆ドロップ__]してファイルをアップロードします。
+.size_small_7[
+（参考）マウスでクリックした状態のままファイルを移動して、指定の場所でクリックを解除（指を離す）することをドラッグ&ドロップと言います。
+]
+]
+.col-7[
+.center[<img src="readme-img/Monaca16.png" alt="Monaca16.png" width="550px">]
+]
+
+---
+.bottom-bar[
+  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
+]
+
+## 画像
+### Monacaへのインポート
+
+.col-5[
+正しくファイルがアップロードされるとディレクトリに追加されます。<br>
+追加されていることを確認したらアップロード画面を閉じましょう。
+]
+.col-7[
+.center[<img src="readme-img/Monaca16.png" alt="Monaca16.png" width="550px">]
+]
+
+---
+.bottom-bar[
+  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
+]
+
+## 画像
+.col-6[
+### Monacaへのインポート
+
+改めてファイルディレクトリ画面を確認しましょう。<br>
+インポート出来たことを確認できました。
+]
+.col-6[
+.center[<img src="readme-img/Monaca17.png" alt="Monaca17.png" width="300px">]
+]
 ---
 .bottom-bar[
   4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
@@ -658,51 +789,22 @@ layout: false
 
 ## 画像
 
-* 用意した画像をアプリで表示するために、Monacaに画像をインポートしましょう
-  * 画像を取り込むことを「インポート」すると言います☝️
+インポートした画像をアプリに表示するには imgタグ を使います。
 
-
----
-.bottom-bar[
-  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
-]
-
-編集している index.html と同じ場所に画像をインポートしましょう。
-* 画面左のディレクトリの index.html で右クリックをします。開いた項目の「ファイルをアップロード」をクリックします。
-
-.center[<img src="readme-img/Monaca13.png" alt="Monaca13.png" width="250px">]
-
----
-.bottom-bar[
-  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
-]
-
-* デスクトップに用意した画像をファイルアップロード画面に __ドラッグ＆ドロップ__ してファイルをアップロードします
-  * マウスでクリックした状態のままファイルを移動して、指定の場所でクリックを解除（指を離す）することをドラッグ&ドロップと言います。
-
-.center[<img src="readme-img/Monaca16.png" alt="Monaca16.png" width="750px">]
-
-* 正しくファイルがアップロードされるとディレクトリに追加されます
-* 追加されていることを確認したらアップロード画面を閉じましょう
-
----
-.bottom-bar[
-  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
-]
-
-* 改めてインポート出来たことを確認できました
-
-.center[<img src="readme-img/Monaca17.png" alt="Monaca17.png" width="300px">]
-
----
-.bottom-bar[
-  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
-]
-
-インポートした画像を表示するには imgタグ を使います。
 * `src` : 画像のパスを指定します
 * `width` : 画像の横の長さを指定します
 * `height` : 画像の縦の長さを指定します
+
+```html
+<img src="image.png" width="150" height="150">
+```
+
+---
+.bottom-bar[
+  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
+]
+
+## 画像
 
 ```html
 <img src="image.png" width="150" height="150">
@@ -717,62 +819,128 @@ layout: false
 
 プロフィールアプリに画像を表示してみましょう。タイトル（h1タグ）の下に追加してみましょう。
 
-.center[<img src="readme-img/Monaca19.png" alt="Monaca19.png" width="750px">]
+.center[<img src="readme-img/Monaca19.png" alt="Monaca19.png" width="850px">]
 
 ---
 layout: true
 class: center, middle, animation-fade
 ---
-## 5. プロフィールアプリを作る②<br>（アレンジの仕方）
+# 5. プロフィールアプリを作る②<br>（アレンジの仕方）
 
 ---
 layout: false
-### 5. プロフィールアプリを作る②（アレンジの仕方）
 
-ここまでで下書き通りには表示できるようになりました！ですが、このままだとちょっと殺風景ですね…せっかくなのでもう少しアレンジしてみましょう！
+.bottom-bar[
+  5.&nbsp;プロフィールアプリを作る②（アレンジの仕方）
+]
 
-.center[<img src="readme-img/Monaca19-2.png" alt="Monaca19-2.png" width="250px">]
-
----
-### 5. プロフィールアプリを作る②（アレンジの仕方）
-
-* 背景の色変更
- * bodyタグに `bgcolor="色"` を追加
- * 下の例は背景が水色になる
-
-```html
-<body bgcolor="skyblue">
-```
-
-.center[<img src="readme-img/Monaca20.png" alt="Monaca20.png" width="500px">]
-
-
-色は、`blue`, `pink`, `red` など、英語表記で指定するかまたは __色コード__ で指定することができるよ☝️
-
-.size_small_7[
-> 参考リンク
-> WEB色見本 原色大辞典 \- HTMLカラーコード
-> https://www.colordic.org/
+.col-7[
+ここまでで下書き通りには表示できるようになりました！<br>
+ですが、このままだとちょっと殺風景ですね…<br>せっかくなのでもう少し.color_pink[__アレンジ__]してみましょう！
+]
+.col-5[
+.center[<img src="readme-img/Monaca19-2.png" alt="Monaca19-2.png" width="300px">]
 ]
 
 ---
-### 5. プロフィールアプリを作る②（アレンジの仕方）
-* 文字の色変更
-  * 色を変えたい文字を fontタグ（ `<font color="色">`, `</font>` ）で囲む
-  * 下の例は赤文字の「こんにちは」を表示します
+.bottom-bar[
+  5.&nbsp;プロフィールアプリを作る②（アレンジの仕方）
+]
+
+## 背景の色変更
+
+* bodyタグに `bgcolor="色"` を追加します
+* 下の例は背景を水色（skyblue）にします
+
+```html
+<body bgcolor="skyblue">
+  ・・・
+</body>
+```
+
+---
+.bottom-bar[
+  5.&nbsp;プロフィールアプリを作る②（アレンジの仕方）
+]
+
+## 背景の色変更
+
+```html
+<body bgcolor="skyblue">
+  ・・・
+</body>
+```
+
+.center[<img src="readme-img/Monaca20.png" alt="Monaca20.png" width="700px">]
+
+---
+.bottom-bar[
+  5.&nbsp;プロフィールアプリを作る②（アレンジの仕方）
+]
+
+## 背景の色変更
+
+```html
+<body bgcolor="skyblue">
+  ・・・
+</body>
+```
+
+色は、青：`blue`, ピンク：`pink`, 赤：`red` など、<br>
+色名の.color_pink[__英語表記__]または.color_pink[__色コード__]で指定することができるよ☝️
+
+.col-6[
+＜例＞ タカノ君の羽の青色： `#006cb4`
+
+.size_small_7[
+> 参考リンク<br>
+> WEB色見本 原色大辞典 \- HTMLカラーコード<br>
+> https://www.colordic.org/
+]
+]
+
+.col-6[
+.center[<img src="readme-img/Monaca49.png" alt="Monaca49.png" width="350px">]
+]
+
+---
+.bottom-bar[
+  5.&nbsp;プロフィールアプリを作る②（アレンジの仕方）
+]
+
+## 文字の色変更
+
+* 色を変えたい文字を fontタグ（ `<font color="色">`, `</font>` ）で囲む
+* 下の例は赤文字の「こんにちは」を表示します
 
 ```html
 <font color="red">こんにちは</font>
 ```
 
-.center[<img src="readme-img/Monaca21.png" alt="Monaca21.png" width="750px">]
+---
+.bottom-bar[
+  5.&nbsp;プロフィールアプリを作る②（アレンジの仕方）
+]
 
-色の指定は背景と同じく英語表記か色コードで指定できるよ☝️
+## 文字の色変更
+
+```html
+<font color="red">こんにちは</font>
+```
+
+.center[<img src="readme-img/Monaca21.png" alt="Monaca21.png" width="900px">]
+
+色の指定方法は背景色と同じく英語表記か色コードで指定できるよ☝️
 
 
 ---
-### 5. プロフィールアプリを作る②（アレンジの仕方）
-例えば、タイトルの一部だけを変えることもできるよ👍
+.bottom-bar[
+  5.&nbsp;プロフィールアプリを作る②（アレンジの仕方）
+]
+
+## 文字の色変更
+
+＜例＞タイトルの一部だけを変えることもできるよ👍
 
 ```html
 <h1>私の<font color="red">ホームページ</font>アプリ</h1>
@@ -782,11 +950,14 @@ layout: false
 
 
 ---
-### 5. プロフィールアプリを作る②（アレンジの仕方）
+.bottom-bar[
+  5.&nbsp;プロフィールアプリを作る②（アレンジの仕方）
+]
 
-* 位置変更
- * 位置を変更したいタグに`align="***"`追加します
- * 下の例は段落（pタグ）の位置変更
+## 位置の変更
+
+* 位置を変更したいタグに`align="***"`追加します
+* 下の例は段落（pタグ）の位置を変更します
 
 ```html
 <p align="left">左揃え</p>
@@ -794,12 +965,42 @@ layout: false
 <p align="center">中央揃え</p>
 ```
 
-.center[<img src="readme-img/Monaca23.png" alt="Monaca23.png" width="750px">]
+---
+.bottom-bar[
+  5.&nbsp;プロフィールアプリを作る②（アレンジの仕方）
+]
+
+## 位置の変更
+
+```html
+<p align="left">左揃え</p>
+<p align="right">右揃え</p>
+<p align="center">中央揃え</p>
+```
+
+.center[<img src="readme-img/Monaca23.png" alt="Monaca23.png" width="900px">]
 
 ---
-### 5. プロフィールアプリを作る②（アレンジの仕方）
+.bottom-bar[
+  5.&nbsp;プロフィールアプリを作る②（アレンジの仕方）
+]
 
-画像の位置変更をしたい場合は、画像を divタグ（ `<div align="***">`, `</div>`）で囲みましょう。
+## 位置の変更
+### 画像の位置変更をしたい場合
+
+* 画像（imgタグ）を divタグ（ `<div align="***">`, `</div>`）で囲みましょう。
+
+```HTML
+<div align="center">画像</div>
+```
+
+---
+.bottom-bar[
+  5.&nbsp;プロフィールアプリを作る②（アレンジの仕方）
+]
+
+## 位置の変更
+### 画像の位置変更をしたい場合
 
 ```HTML
 <div align="center">画像</div>
@@ -808,54 +1009,282 @@ layout: false
 .center[<img src="readme-img/Monaca24.png" alt="Monaca24.png" width="750px">]
 
 ---
+.bottom-bar[
+  5.&nbsp;プロフィールアプリを作る②（アレンジの仕方）
+]
+
+いくつか画像を追加したり、色を変えたりしてプロフィールアプリをアレンジしてみましょう💪
+
+.center[<img src="readme-img/complete_no_mb.png" alt="complete_no_mb.png" width="240px">]
+
+
+---
 layout: true
 class: center, middle, animation-fade
 ---
-## 6. TRY：コメント入力機能をつけよう
+# 6. TRY：コメント入力機能をつけよう
 
 ---
 layout: false
 
-### 6. TRY：コメント入力機能をつけよう
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
 
-最後に特別な機能を追加しましょう🥰<br>と言っても、ちょっと難しいので __コピペ__ を使ってサクッと機能を追加しちゃいましょう。（コピペとはできたものをコピーしてペーストする（貼り付ける）ことです😋）
+最後に.color_pink[__特別な機能__]を追加しましょう😉！<br>
+できたプロフィールアプリをみんなに見せてコメントをもらいましょう😍<br>
+と言っても、ちょっと難しいので.color_pink[__コピペ__]（コピー＆ペースト（貼り付ける）のこと）を使ってサクッと機能を追加しちゃいましょう。
 
-1. 機能追加に欠かせない道具 ニフクラ mobile backend とは
+### これからやること
+
+.col-6[
+1. 機能追加に欠かせない道具 .color_pink[__ニフクラ mobile backend__] とは
 1. ニフクラ mobile backend の準備
 1. コピペで機能追加
+]
+
+.col-6[
+.center[<img src="readme-img/mb_00.png" alt="mb_00.png" width="400px">]
+]
+
 
 ---
-### 6.1. 機能追加に欠かせない道具<br>　　　　　ニフクラ mobile backend とは
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
 
-スマートフォンアプリのクラウドデータベースサービスです。と言っても難しくてよくわからないと思います😵<br>
-これから作る「コメント入力機能」で入力されたメッセージは、スマートフォン上ではなく「クラウド」に保存することができます。クラウドに保存すると、
+### 6.1. 機能追加に欠かせない道具ニフクラ mobile backend とは
 
-* 将来的には入力したメッセージをみんなで共有することができます
-* スマートフォンやアプリが壊れてもデータが無くなることはありません
+スマートフォンアプリの.color_pink[__クラウドデータベース__]サービスです。<br>
+と言っても難しくてよくわからないですよね…😵<br>
+よくわからなくても実はアプリに欠かすことのできない存在なんです。<br>
 
-.center[<img src="readme-img/about_NCMB.png" alt="about_NCMB.png" width="200px">]
+.col-7[
+＜例＞メッセージ送信アプリ<br>
+送信したメッセージはスマホからスマホへ送られているわけではありません！<br>
+一度クラウドに保存され相手に届けられる仕組みになっています。<br>
+クラウドがなければ作ることができないわけですね。
+]
 
-今回は、作ったアプリと一緒にメッセージデータが入った「クラウド」も一緒に持ち帰っていただこうと思います👍
+.col-5[
+.center[<img src="readme-img/mb_01.png" alt="mb_01.png" width="300px">]
+]
 
 ---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.1. 機能追加に欠かせない道具ニフクラ mobile backend とは
+
+
+.center[<img src="readme-img/mb_02.png" alt="mb_02.png" width="450px">]
+
+これから作る「コメント入力機能」もクラウドを使って作ってみましょう。<br>
+一人一人それぞれのクラウドを用意しますので、作ったアプリと一緒にメッセージデータが入った.color_pink[__クラウド__]も持ち帰えってもらえます👍
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
 ### 6.2. ニフクラ mobile backend の準備
 
-アカウントを作成しましょう。
+ニフクラ mobile backend の利用登録をしましょう。<br>
+ブラウザで別のタブを開いて、次のURLを入力してEnterキーを押します。<br>
+https://mbaas.nifcloud.com/
 
-* ニフクラ mobile backend 利用登録（無料）
-  * https://mbaas.nifcloud.com/signup.htm
+.center[<img src="readme-img/mb_03.png" alt="mb_03.png" width="700px">]
 
 ---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
 ### 6.2. ニフクラ mobile backend の準備
 
-ログインからアプリ新規作成まで
+「無料登録」をクリックします。
+
+.center[<img src="readme-img/mb_04.png" alt="mb_04.png" width="700px">]
 
 ---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
 ### 6.2. ニフクラ mobile backend の準備
 
-SDK導入
+SNS ID として Gmail を使ってアカウントを作成します。<br>
+「会員登録（無料）」をクリックします。
+
+.center[<img src="readme-img/mb_05.png" alt="mb_05.png" width="550px">]
 
 ---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+「Google で登録する」をクリックします。
+
+.center[<img src="readme-img/mb_06.png" alt="mb_06.png" width="350px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+自分の Gmail をクリックします。
+
+.center[<img src="readme-img/mb_07.png" alt="mb_07.png" width="350px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+「メールアドレス」はそのままでOKです。「確認メールを送信」をクリックします。
+
+.center[<img src="readme-img/mb_08.png" alt="mb_08.png" width="450px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+確認メールが送られます。先ほど開いておいたGmailのタブを開きましょう。
+
+.center[<img src="readme-img/mb_09.png" alt="mb_09.png" width="450px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+メールに書かれている「URL」をクリックします。
+
+.center[<img src="readme-img/mb_10.png" alt="mb_10.png" width="450px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+「以上の規約に同意する」にチェックを入れて「アカウント登録」をクリックします。
+
+.center[<img src="readme-img/mb_11.png" alt="mb_11.png" width="450px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+アカウントが作成され、ニフクラ mobile backend にログインできました🎉
+
+.center[<img src="readme-img/mb_12.png" alt="mb_12.png" width="700px">]
+
+.size_small_7[
+.right[
+（参考）お家で mobile backend を使うときは、https://mbaas.nifcloud.com/ からログインして使いましょう☝️
+]
+]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+ニフクラ mobile backend 上に.color_pink[__メッセージを保存するための場所__]を用意しましょう。<br>
+クラウド側にも.color_pink[__アプリ__]を作ります。<br>
+「ProfileApp」と入力して「新規作成」をクリックします。
+
+.center[<img src="readme-img/mb_13.png" alt="mb_13.png" width="400px">]
+
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+.center[<img src="readme-img/mb_14.png" alt="mb_14.png" width="400px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+.center[<img src="readme-img/mb_15.png" alt="mb_15.png" width="400px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+.center[<img src="readme-img/mb_16.png" alt="mb_16.png" width="400px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+.center[<img src="readme-img/mb_17.png" alt="mb_17.png" width="400px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+.center[<img src="readme-img/mb_18.png" alt="mb_18.png" width="400px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+.center[<img src="readme-img/mb_19.png" alt="mb_19.png" width="400px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+.center[<img src="readme-img/mb_20.png" alt="mb_20.png" width="400px">]
+
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
 ### 6.2. ニフクラ mobile backend の準備
 
 SDK初期化
@@ -868,6 +1297,10 @@ var ncmb = new NCMB(applicationKey, clientKey);
 ```
 
 ---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
 ### 6.3. コピペで機能追加
 
 自己紹介を書いた `<body></body>` タグの一番下に、次の内容をコピペします。
@@ -885,13 +1318,17 @@ var ncmb = new NCMB(applicationKey, clientKey);
 これで画面にコメント入力欄が追加されますが、まだボタンを押した後の処理をコーディングしていないので、ボタンを押しても何も動きません。
 
 ---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
 ### 6.3. コピペで機能追加
 
-コメント入力をして、送信ボタンを押すとメッセージが保存されていくように処理を書きます。
-
-* scriptタグ （`<script>`, `</script>`）内に次の内容をコピペします
-
 .size_small_9[
+コメント入力をして、送信ボタンを押すとメッセージが保存されていくように処理を書きます。<br>
+scriptタグ （`<script>`, `</script>`）内に次の内容をコピペします。
+]
+.size_small_5[
 ```js
 // メッセージが送信された時の処理
 function sendMessage() {
@@ -926,6 +1363,10 @@ function sendMessage() {
 ]
 
 ---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
 ### 6.3. コピペで機能追加
 
 動作確認
