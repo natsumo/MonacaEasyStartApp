@@ -87,6 +87,8 @@ layout: false
     1. 機能追加に欠かせない道具 ニフクラ mobile backend とは
     1. ニフクラ mobile backend の準備
     1. コピペで機能追加
+    1. 動作確認
+1. アプリを使って自己紹介しよう！
 
 .bottom-bar[
   はじめに
@@ -105,7 +107,7 @@ layout: false
   1.&nbsp;プロフィールアプリの下書き
 ]
 
-ワークシートに作成する内容をプロフィールアプリの下書きをしましょう。
+ワークシートにプロフィールアプリの下書きをしましょう。
 
 .center[<img src="readme-img/draft.png" alt="draft.png" width="280px">]
 
@@ -152,8 +154,6 @@ layout: false
 * Gmail（メールアドレス）
   * https://accounts.google.com/signup
 
-
-
 ---
 .bottom-bar[
   2.&nbsp;アプリ作成ツール「Monaca」の準備
@@ -169,8 +169,27 @@ https://monaca.mobi/ja/signup
 
 .center[<img src="readme-img/Monaca36.png" alt="Monaca36.png" width="700px">]
 
-Monacaのアカウント作成ページが開きます。
+---
+.bottom-bar[
+  2.&nbsp;アプリ作成ツール「Monaca」の準備
+]
 
+### 半角英語数字の入力をするには？
+
+「ひらがな」が入力されてしまうときは、入力方法を切り替えるましょう。
+
+.center[<img src="readme-img/keyboad_01.png" alt="keyboad_01.png" width="700px">]
+
+---
+.bottom-bar[
+  2.&nbsp;アプリ作成ツール「Monaca」の準備
+]
+
+### 記号はどこ？
+
+URLに含まれる「.」や「/」はここにあるよ！
+
+.center[<img src="readme-img/keyboad_02.png" alt="keyboad_02.png" width="700px">]
 
 ---
 .bottom-bar[
@@ -180,11 +199,23 @@ Monacaのアカウント作成ページが開きます。
 ## アプリ作成ツール「Monaca」のアカウントを作る
 
 .col-6[
+Monacaのアカウント作成ページが開きます。<br>
 Gmailのメールアドレスとパスワード（Gmailと同じでも違ってもどちらでもOK）を入力して「アカウント新規作成」をクリックします。
 ]
 .col-6[
 .center[<img src="readme-img/Monaca30.png" alt="Monaca30.png" width="400px">]
 ]
+
+---
+.bottom-bar[
+  2.&nbsp;アプリ作成ツール「Monaca」の準備
+]
+
+### 記号はどこ？
+
+メールアドレスに含まれる「@」はここにあるよ！
+
+.center[<img src="readme-img/keyboad_03.png" alt="keyboad_03.png" width="700px">]
 
 ---
 .bottom-bar[
@@ -200,8 +231,6 @@ Gmailにメールがとどきます。<br>
 .col-6[
 .center[<img src="readme-img/Monaca37.png" alt="Monaca37.png" width="500px">]
 ]
-
-
 
 ---
 .bottom-bar[
@@ -304,6 +333,17 @@ Monacaからのメールを開いて「本登録はこちら」をクリック�
 .col-6[
 .center[<img src="readme-img/Monaca41.png" alt="Monaca41.png" width="400px">]
 ]
+
+---
+.bottom-bar[
+  2.&nbsp;アプリ作成ツール「Monaca」の準備
+]
+
+### ひらがな・カタカナや漢字を入力するには？
+
+半角英語数字入力からひらがな・カタカナや漢字の入力に変更するときは、もう一度キーを押しましょう。
+
+.center[<img src="readme-img/keyboad_01.png" alt="keyboad_01.png" width="700px">]
 
 ---
 .bottom-bar[
@@ -467,9 +507,18 @@ bodyタグの間に書いた内容がアプリの画面に表示される仕組�
 ]
 
 あれ？書き直したけどプレビュー画面が変わらないね😢<br>
-プレビュー画面に正しく表示させるには編集したファイル（index.html）を.color_pink[__保存__]しなければなりません。<br>「.color_pink[__Ctrl]__」+「.color_pink[__S__]」キーを同時に押して、保存をしてみましょう。
+プレビュー画面に正しく表示させるには編集したファイル（index.html）を.color_pink[__保存__]しなければなりません。
 
 .center[<img src="readme-img/Monaca08.png" alt="Monaca08.png" width="700px">]
+
+---
+.bottom-bar[
+  3.&nbsp;Monacaの使い方練習
+]
+
+「.color_pink[__Ctrl]__」+「.color_pink[__S__]」キーを同時に押して、保存をしてみましょう。
+
+.center[<img src="readme-img/keyboad_04.png" alt="keyboad_04.png" width="700px">]
 
 
 ---
@@ -611,6 +660,19 @@ layout: false
 .color_pink[__見出し__]と.color_pink[__段落__]を組み合わせて、下書きした内容を画面の中に作ってみましょう！
 
 .center[<img src="readme-img/Monaca12.png" alt="Monaca12.png" width="950px">]
+
+---
+.bottom-bar[
+  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
+]
+
+### 記号はどこ？
+
+タグ含まれる「<」,「>」はここにあるよ！<br>
+ボタンの上の行に書かれている記号を入力するときは「Shift」ボタンを押しながら入力します。
+
+.center[<img src="readme-img/keyboad_05.png" alt="keyboad_05.png" width="700px">]
+
 
 ---
 .bottom-bar[
@@ -761,7 +823,7 @@ layout: false
 
 .col-5[
 正しくファイルがアップロードされるとディレクトリに追加されます。<br>
-追加されていることを確認したらアップロード画面を閉じましょう。
+追加されていることを確認したらアップロード画面を「×」をクリックして閉じましょう。
 ]
 .col-7[
 .center[<img src="readme-img/Monaca16.png" alt="Monaca16.png" width="550px">]
@@ -820,6 +882,17 @@ layout: false
 プロフィールアプリに画像を表示してみましょう。タイトル（h1タグ）の下に追加してみましょう。
 
 .center[<img src="readme-img/Monaca19.png" alt="Monaca19.png" width="850px">]
+
+---
+.bottom-bar[
+  4.&nbsp;プロフィールアプリを作る①（パーツの書き方）
+]
+
+### 記号はどこ？
+
+imgタグに含まれる「"」,「=」はここにあるよ！
+
+.center[<img src="readme-img/keyboad_06.png" alt="keyboad_06.png" width="700px">]
 
 ---
 layout: true
@@ -956,7 +1029,7 @@ layout: false
 
 ## 位置の変更
 
-* 位置を変更したいタグに`align="***"`追加します
+* 位置を変更したいタグに`align`を追加します
 * 下の例は段落（pタグ）の位置を変更します
 
 ```html
@@ -988,10 +1061,10 @@ layout: false
 ## 位置の変更
 ### 画像の位置変更をしたい場合
 
-* 画像（imgタグ）を divタグ（ `<div align="***">`, `</div>`）で囲みましょう。
+* 画像（imgタグ）を pタグ（ `<p align="***">`, `</p>`）で囲みましょう。
 
 ```HTML
-<div align="center">画像</div>
+<p align="center">画像</p>
 ```
 
 ---
@@ -1003,7 +1076,7 @@ layout: false
 ### 画像の位置変更をしたい場合
 
 ```HTML
-<div align="center">画像</div>
+<p align="center">画像</p>
 ```
 
 .center[<img src="readme-img/Monaca24.png" alt="Monaca24.png" width="750px">]
@@ -1032,8 +1105,11 @@ layout: false
 ]
 
 最後に.color_pink[__特別な機能__]を追加しましょう😉！<br>
-できたプロフィールアプリをみんなに見せてコメントをもらいましょう😍<br>
-と言っても、ちょっと難しいので.color_pink[__コピペ__]（コピー＆ペースト（貼り付ける）のこと）を使ってサクッと機能を追加しちゃいましょう。
+できたプロフィールアプリをみんなに見せてコメントをもらえるようにしましょう😍<br>
+
+.size_small_7[
+この機能の追加はちょっと難しいので.color_pink[__コピペ__]（コピー＆ペースト（貼り付ける）のこと）を使ってサクッと機能を追加しちゃいましょう。
+]
 
 ### これからやること
 
@@ -1041,6 +1117,7 @@ layout: false
 1. 機能追加に欠かせない道具 .color_pink[__ニフクラ mobile backend__] とは
 1. ニフクラ mobile backend の準備
 1. コピペで機能追加
+1. 動作確認
 ]
 
 .col-6[
@@ -1060,7 +1137,7 @@ layout: false
 よくわからなくても実はアプリに欠かすことのできない存在なんです。<br>
 
 .col-7[
-＜例＞メッセージ送信アプリ<br>
+＜例＞__メッセージ送信アプリ__<br>
 送信したメッセージはスマホからスマホへ送られているわけではありません！<br>
 一度クラウドに保存され相手に届けられる仕組みになっています。<br>
 クラウドがなければ作ることができないわけですね。
@@ -1210,7 +1287,7 @@ SNS ID として Gmail を使ってアカウントを作成します。<br>
 ### 6.2. ニフクラ mobile backend の準備
 
 ニフクラ mobile backend 上に.color_pink[__メッセージを保存するための場所__]を用意しましょう。<br>
-クラウド側にも.color_pink[__アプリ__]を作ります。<br>
+クラウドの中にも.color_pink[__アプリ__]を作ります。<br>
 「ProfileApp」と入力して「新規作成」をクリックします。
 
 .center[<img src="readme-img/mb_13.png" alt="mb_13.png" width="400px">]
@@ -1223,7 +1300,12 @@ SNS ID として Gmail を使ってアカウントを作成します。<br>
 
 ### 6.2. ニフクラ mobile backend の準備
 
-.center[<img src="readme-img/mb_14.png" alt="mb_14.png" width="400px">]
+クラウドにアプリが作成されました🎉<br>
+アプリが作成されると.color_pink[__APIキー__]という２種類の鍵が発行されます。
+
+.center[<img src="readme-img/mb_14.png" alt="mb_14.png" width="500px">]
+
+APIキーは後ほど使います。一旦このままにしておきましょう。
 
 ---
 .bottom-bar[
@@ -1232,7 +1314,15 @@ SNS ID として Gmail を使ってアカウントを作成します。<br>
 
 ### 6.2. ニフクラ mobile backend の準備
 
-.center[<img src="readme-img/mb_15.png" alt="mb_15.png" width="400px">]
+.col-6[
+もう一度Monacaの開発画面のタブに戻りましょう。<br>
+クラウドの準備ができたので、<br>Monacaでクラウドを使う準備をしていきます。<br>
+<br>
+「設定」をクリックして、その中にある「JS/CSSコンポーネントの追加と削除」をクリックします。
+]
+.col-6[
+.center[<img src="readme-img/mb_15.png" alt="mb_15.png" width="280px">]
+]
 
 ---
 .bottom-bar[
@@ -1241,7 +1331,9 @@ SNS ID として Gmail を使ってアカウントを作成します。<br>
 
 ### 6.2. ニフクラ mobile backend の準備
 
-.center[<img src="readme-img/mb_16.png" alt="mb_16.png" width="400px">]
+「コンポーネント名」のところに「_NCMB_」と入力して、隣にある「検索する」をクリックします。
+
+.center[<img src="readme-img/mb_16.png" alt="mb_16.png" width="600px">]
 
 ---
 .bottom-bar[
@@ -1250,7 +1342,16 @@ SNS ID として Gmail を使ってアカウントを作成します。<br>
 
 ### 6.2. ニフクラ mobile backend の準備
 
-.center[<img src="readme-img/mb_17.png" alt="mb_17.png" width="400px">]
+「ncmb」が表示されるので「追加」をクリックします。
+
+.center[<img src="readme-img/mb_17.png" alt="mb_17.png" width="600px">]
+
+<br><br><br><br><br>
+.size_small_7[
+（参考）ニフクラmobile backend を Monaca で使う場合は、この「ncmb」を必ず追加する必要があるよ！
+>JavaScript SDK
+
+]
 
 ---
 .bottom-bar[
@@ -1259,7 +1360,9 @@ SNS ID として Gmail を使ってアカウントを作成します。<br>
 
 ### 6.2. ニフクラ mobile backend の準備
 
-.center[<img src="readme-img/mb_18.png" alt="mb_18.png" width="400px">]
+「インストール」をクリックします。
+
+.center[<img src="readme-img/mb_18.png" alt="mb_18.png" width="600px">]
 
 ---
 .bottom-bar[
@@ -1268,7 +1371,9 @@ SNS ID として Gmail を使ってアカウントを作成します。<br>
 
 ### 6.2. ニフクラ mobile backend の準備
 
-.center[<img src="readme-img/mb_19.png" alt="mb_19.png" width="400px">]
+必ずチェックを入れてから「OK」をクリックします。
+
+.center[<img src="readme-img/mb_19.png" alt="mb_19.png" width="550px">]
 
 ---
 .bottom-bar[
@@ -1277,8 +1382,10 @@ SNS ID として Gmail を使ってアカウントを作成します。<br>
 
 ### 6.2. ニフクラ mobile backend の準備
 
-.center[<img src="readme-img/mb_20.png" alt="mb_20.png" width="400px">]
+最初の一覧に戻ります。<br>
+一覧に「ncmb」が追加されていればOKです。
 
+.center[<img src="readme-img/mb_20.png" alt="mb_20.png" width="600px">]
 
 ---
 .bottom-bar[
@@ -1287,7 +1394,19 @@ SNS ID として Gmail を使ってアカウントを作成します。<br>
 
 ### 6.2. ニフクラ mobile backend の準備
 
-SDK初期化
+この画面を閉じて、index.html を表示しましょう。
+
+.center[<img src="readme-img/mb_21.png" alt="mb_21.png" width="400px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+index.html を編集します。index.html に元々ある.color_pink[__scriptタグ__]（`<script>`, `</script>`）内に次の内容をコピペします。<br>
+（次のコードをマウスで選択して、__右クリック__ して「コピー」をクリックします。）
 
 ```js
 // ニフクラ mobile backend を使うための準備
@@ -1295,6 +1414,88 @@ var applicationKey = "YOUR_APPLICATION_KEY";
 var clientKey = "YOUR_CLIENT_KEY";
 var ncmb = new NCMB(applicationKey, clientKey);
 ```
+<br><br>
+>SDKの初期化
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+`<script>`と`</script>`の間で右クリックをして「ペースト」をクリックします。<br>
+次のように表示されればOKです。
+
+.center[<img src="readme-img/mb_22.png" alt="mb_22.png" width="600px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+`YOUR_APPLICATION_KEY`, `YOUR_CLIENT_KEY`の部分を書き換えます。<br>
+先ほど準備た ニフクラ mobile backend のページを開きましょう。
+
+.center[<img src="readme-img/mb_23.png" alt="mb_23.png" width="600px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+.center[<img src="readme-img/mb_24.png" alt="mb_24.png" width="600px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+.center[<img src="readme-img/mb_25.png" alt="mb_25.png" width="600px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+.center[<img src="readme-img/mb_26.png" alt="mb_26.png" width="600px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+.center[<img src="readme-img/mb_27.png" alt="mb_27.png" width="600px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+.center[<img src="readme-img/mb_28.png" alt="mb_28.png" width="600px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+.center[<img src="readme-img/mb_29.png" alt="mb_29.png" width="600px">]
+
+これでクラウドの準備は完了です🎉
 
 ---
 .bottom-bar[
@@ -1303,7 +1504,7 @@ var ncmb = new NCMB(applicationKey, clientKey);
 
 ### 6.3. コピペで機能追加
 
-自己紹介を書いた `<body></body>` タグの一番下に、次の内容をコピペします。
+自己紹介を書いた bodyタグ の一番下に、次の内容をコピペします。
 
 ```HTML
 <!-- コメント入力機能 -->
@@ -1315,6 +1516,15 @@ var ncmb = new NCMB(applicationKey, clientKey);
 <div id="log"></div>
 ```
 
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.3. コピペで機能追加
+
+.center[<img src="readme-img/mb_30.png" alt="mb_30.png" width="600px">]
+
 これで画面にコメント入力欄が追加されますが、まだボタンを押した後の処理をコーディングしていないので、ボタンを押しても何も動きません。
 
 ---
@@ -1324,11 +1534,11 @@ var ncmb = new NCMB(applicationKey, clientKey);
 
 ### 6.3. コピペで機能追加
 
-.size_small_9[
-コメント入力をして、送信ボタンを押すとメッセージが保存されていくように処理を書きます。<br>
-scriptタグ （`<script>`, `</script>`）内に次の内容をコピペします。
+.size_small_7[
+送信ボタンを押すとメッセージが保存されていくように処理を書いていきましょう<br>
+先ほど書いた内容に続けて、scriptタグ （`<script>`, `</script>`）内に次の内容をコピペします。
 ]
-.size_small_5[
+.size_small_3[
 ```js
 // メッセージが送信された時の処理
 function sendMessage() {
@@ -1369,18 +1579,58 @@ function sendMessage() {
 
 ### 6.3. コピペで機能追加
 
-動作確認
+.center[<img src="readme-img/mb_31.png" alt="mb_31.png" width="600px">]
+
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.4. 動作確認
+
+.center[<img src="readme-img/mb_32.png" alt="mb_32.png" width="200px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.4. 動作確認
+
+.center[<img src="readme-img/mb_33.png" alt="mb_33.png" width="200px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.4. 動作確認
+
+.center[<img src="readme-img/mb_34.png" alt="mb_34.png" width="600px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.4. 動作確認
+
+.center[<img src="readme-img/mb_35.png" alt="mb_35.png" width="900px">]
+
 
 ---
 layout: true
 class: center, middle, animation-fade
 ---
-## アプリを使って自己紹介しよう！
+# 7. アプリを使って自己紹介しよう！
 
 ---
 layout: false
 
-### アプリを使って自己紹介しよう！
+.bottom-bar[
+  7.&nbsp;アプリを使って自己紹介しよう！
+]
 
 自己紹介手順
 
@@ -1388,11 +1638,26 @@ layout: false
 layout: true
 class: center, middle, animation-fade
 ---
-## まとめ
+# まとめ
 
 ---
 layout: false
 
-### まとめ
+.bottom-bar[
+  まとめ
+]
 
-まとめと参考書の紹介
+# まとめ
+## 今日できたこと！
+
+まとめ
+
+---
+.bottom-bar[
+  まとめ
+]
+
+# まとめ
+## 参考書の紹介
+
+.center[<img src="readme-img/education_mb.png" alt="education_mb.png" width="300px">]
