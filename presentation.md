@@ -169,6 +169,8 @@ https://monaca.mobi/ja/signup
 
 .center[<img src="readme-img/Monaca36.png" alt="Monaca36.png" width="700px">]
 
+
+
 ---
 .bottom-bar[
   2.&nbsp;アプリ作成ツール「Monaca」の準備
@@ -176,7 +178,7 @@ https://monaca.mobi/ja/signup
 
 ### 半角英語数字の入力をするには？
 
-「ひらがな」が入力されてしまうときは、入力方法を切り替えるましょう。
+「ひらがな」が入力されてしまうときは、入力方法を切り替えましょう。
 
 .center[<img src="readme-img/keyboad_01.png" alt="keyboad_01.png" width="700px">]
 
@@ -190,6 +192,17 @@ https://monaca.mobi/ja/signup
 URLに含まれる「.」や「/」はここにあるよ！
 
 .center[<img src="readme-img/keyboad_02.png" alt="keyboad_02.png" width="700px">]
+
+---
+.bottom-bar[
+  2.&nbsp;アプリ作成ツール「Monaca」の準備
+]
+
+### ちなみに...
+
+「.color_pink[__Enter__]」キーはここだよ！
+
+.center[<img src="readme-img/keyboad_07.png" alt="keyboad_07.png" width="700px">]
 
 ---
 .bottom-bar[
@@ -497,6 +510,18 @@ bodyタグの間に書いた内容がアプリの画面に表示される仕組�
   3.&nbsp;Monacaの使い方練習
 ]
 
+### ちなみに...
+
+「.color_pink[__Back Space__]」キーはここだよ！
+
+.center[<img src="readme-img/keyboad_08.png" alt="keyboad_08.png" width="700px">]
+
+
+---
+.bottom-bar[
+  3.&nbsp;Monacaの使い方練習
+]
+
 全部消したら「__こんにちは！__」と書いてみましょう。<br><br>
 
 .center[<img src="readme-img/Monaca07-2.png" alt="Monaca07-2.png" width="500px">]
@@ -519,7 +544,6 @@ bodyタグの間に書いた内容がアプリの画面に表示される仕組�
 「.color_pink[__Ctrl]__」+「.color_pink[__S__]」キーを同時に押して、保存をしてみましょう。
 
 .center[<img src="readme-img/keyboad_04.png" alt="keyboad_04.png" width="700px">]
-
 
 ---
 .bottom-bar[
@@ -1158,7 +1182,7 @@ layout: false
 .center[<img src="readme-img/mb_02.png" alt="mb_02.png" width="450px">]
 
 これから作る「コメント入力機能」もクラウドを使って作ってみましょう。<br>
-一人一人それぞれのクラウドを用意しますので、作ったアプリと一緒にメッセージデータが入った.color_pink[__クラウド__]も持ち帰えってもらえます👍
+一人一人それぞれのクラウドを用意しますので、作ったアプリと一緒にメッセージデータが入った.color_pink[__クラウド__]も持ち帰ってもらえます👍
 
 ---
 .bottom-bar[
@@ -1169,9 +1193,12 @@ layout: false
 
 ニフクラ mobile backend の利用登録をしましょう。<br>
 ブラウザで別のタブを開いて、次のURLを入力してEnterキーを押します。<br>
-https://mbaas.nifcloud.com/
+https://mbaas.nifcloud.com/　
 
-.center[<img src="readme-img/mb_03.png" alt="mb_03.png" width="700px">]
+.center[<img src="readme-img/mb_03.png" alt="mb_03.png" width="650px">]
+.size_small_7[
+（参考）URLを打たなくても「.color_pink[__mBaaS__]」と検索してもOK！一番上に出てくるサイトをクリックしましょう。
+]
 
 ---
 .bottom-bar[
@@ -1404,9 +1431,53 @@ APIキーは後ほど使います。一旦このままにしておきましょ�
 ]
 
 ### 6.2. ニフクラ mobile backend の準備
+#### コピペするためにこの資料をパソコンにダウンロードする
 
-index.html を編集します。index.html に元々ある.color_pink[__scriptタグ__]（`<script>`, `</script>`）内に次の内容をコピペします。<br>
-（次のコードをマウスで選択して、__右クリック__ して「コピー」をクリックします。）
+さて、この後から自分で書くのではなく、出来上がったコードをコピペで使っていくために、コピー元のデータを用意しましょう。<br>
+ブラウザの別のタブを開いて、次のリンクを入力してEnterキーを押します。
+
+.center[
+.size_large_18[
+http://bit.ly/MonacaEasyStartApp
+]
+]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+#### コピペするためにこの資料をパソコンにダウンロードする
+
+資料がダウンロードされます。<br>
+画面左下にファイルがダウンロードされるのでクリックして開きましょう。
+
+.center[<img src="readme-img/mb_36.png" alt="mb_36.png" width="600px">]
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+#### コピペするためにこの資料をパソコンにダウンロードする
+
+別のタブが開いて、資料が表示されます。
+
+.center[<img src="readme-img/mb_37.png" alt="mb_37.png" width="600px">]
+
+
+---
+.bottom-bar[
+  6.&nbsp;TRY：コメント入力機能をつけよう
+]
+
+### 6.2. ニフクラ mobile backend の準備
+
+Monacaの開発画面のタブに戻って、index.html を編集します。<br>
+index.html に元々ある.color_pink[__scriptタグ__]（`<script>`, `</script>`）内に次の内容をコピペします。<br>
+まずは先ほどダウンロードした資料のタブを開いて、次のコードをマウスで選択し、__右クリック__ して「コピー」をクリックします。
 
 ```js
 // ニフクラ mobile backend を使うための準備
@@ -1424,10 +1495,10 @@ var ncmb = new NCMB(applicationKey, clientKey);
 
 ### 6.2. ニフクラ mobile backend の準備
 
-`<script>`と`</script>`の間で右クリックをして「ペースト」をクリックします。<br>
+次にMonacaの開発画面のタブに戻って、 `<script>`と`</script>`の間で右クリックをして「ペースト」をクリックします。<br>
 次のように表示されればOKです。
 
-.center[<img src="readme-img/mb_22.png" alt="mb_22.png" width="600px">]
+.center[<img src="readme-img/mb_22.png" alt="mb_22.png" width="550px">]
 
 ---
 .bottom-bar[
@@ -1436,8 +1507,7 @@ var ncmb = new NCMB(applicationKey, clientKey);
 
 ### 6.2. ニフクラ mobile backend の準備
 
-`YOUR_APPLICATION_KEY`, `YOUR_CLIENT_KEY`の部分を書き換えます。<br>
-先ほど準備た ニフクラ mobile backend のページを開きましょう。
+`YOUR_APPLICATION_KEY`, `YOUR_CLIENT_KEY`の部分を書き換えます。
 
 .center[<img src="readme-img/mb_23.png" alt="mb_23.png" width="600px">]
 
@@ -1448,6 +1518,9 @@ var ncmb = new NCMB(applicationKey, clientKey);
 
 ### 6.2. ニフクラ mobile backend の準備
 
+先ほど準備した ニフクラ mobile backend のタブを開きましょう。<br>
+アプリケーションキーの「コピー」ボタンをクリックします。
+
 .center[<img src="readme-img/mb_24.png" alt="mb_24.png" width="600px">]
 
 ---
@@ -1456,6 +1529,9 @@ var ncmb = new NCMB(applicationKey, clientKey);
 ]
 
 ### 6.2. ニフクラ mobile backend の準備
+
+Monacaの開発画面のタブに戻ります。<br>
+`YOUR_APPLICATION_KEY` をダブルクリックすると文字が青くなります。その状態で右クリックをして「貼り付け」をクリックします。
 
 .center[<img src="readme-img/mb_25.png" alt="mb_25.png" width="600px">]
 
@@ -1466,7 +1542,9 @@ var ncmb = new NCMB(applicationKey, clientKey);
 
 ### 6.2. ニフクラ mobile backend の準備
 
-.center[<img src="readme-img/mb_26.png" alt="mb_26.png" width="600px">]
+こんな感じで書き変わればOKです！続いてもう一度同じように `YOUR_CLIENT_KEY` も書き変えます。
+
+.center[<img src="readme-img/mb_26.png" alt="mb_26.png" width="800px">]
 
 ---
 .bottom-bar[
@@ -1474,6 +1552,9 @@ var ncmb = new NCMB(applicationKey, clientKey);
 ]
 
 ### 6.2. ニフクラ mobile backend の準備
+
+再び ニフクラ mobile backend のタブを開きましょう。<br>
+今度は２つ目のクライアントキーの「コピー」ボタンをクリックします。
 
 .center[<img src="readme-img/mb_27.png" alt="mb_27.png" width="600px">]
 
@@ -1484,7 +1565,10 @@ var ncmb = new NCMB(applicationKey, clientKey);
 
 ### 6.2. ニフクラ mobile backend の準備
 
-.center[<img src="readme-img/mb_28.png" alt="mb_28.png" width="600px">]
+Monacaの開発画面のタブに戻ります。<br>
+先ほどと同様に、`YOUR_CLIENT_KEY` をダブルクリックすると文字が青くなります。その状態で右クリックをして「貼り付け」をクリックします。
+
+.center[<img src="readme-img/mb_28.png" alt="mb_28.png" width="800px">]
 
 ---
 .bottom-bar[
@@ -1493,9 +1577,9 @@ var ncmb = new NCMB(applicationKey, clientKey);
 
 ### 6.2. ニフクラ mobile backend の準備
 
-.center[<img src="readme-img/mb_29.png" alt="mb_29.png" width="600px">]
-
 これでクラウドの準備は完了です🎉
+
+.center[<img src="readme-img/mb_29.png" alt="mb_29.png" width="900px">]
 
 ---
 .bottom-bar[
@@ -1504,17 +1588,19 @@ var ncmb = new NCMB(applicationKey, clientKey);
 
 ### 6.3. コピペで機能追加
 
-自己紹介を書いた bodyタグ の一番下に、次の内容をコピペします。
+コメント入力機能を追加していきましょう。<br>
+index.html の bodyタグ の一番下に、次の内容をコピペします。<br>
 
 ```HTML
-<!-- コメント入力機能 -->
 <form name="messageForm">
   <input type="text" name="message" size="30" maxlength="20">
   <input type="button" value="送信" onclick="sendMessage();">
 </form>
-<!-- ログ表示 -->
 <div id="log"></div>
 ```
+
+* ダウンロードした資料のタブを開いて、次のコードをコピーする
+* Monaca開発画面に戻って index.html の bodyタグ の一番下にペーストする
 
 ---
 .bottom-bar[
@@ -1522,6 +1608,8 @@ var ncmb = new NCMB(applicationKey, clientKey);
 ]
 
 ### 6.3. コピペで機能追加
+
+こんな感じになればOKです！
 
 .center[<img src="readme-img/mb_30.png" alt="mb_30.png" width="600px">]
 
@@ -1534,40 +1622,27 @@ var ncmb = new NCMB(applicationKey, clientKey);
 
 ### 6.3. コピペで機能追加
 
-.size_small_7[
 送信ボタンを押すとメッセージが保存されていくように処理を書いていきましょう<br>
-先ほど書いた内容に続けて、scriptタグ （`<script>`, `</script>`）内に次の内容をコピペします。
-]
-.size_small_3[
+先ほど書いた内容に続けて、scriptタグ （`<script>`, `</script>`）内に次の内容をコピペします。（さっきと同じようにやろう！）
+
+.size_small_5[
 ```js
-// メッセージが送信された時の処理
 function sendMessage() {
-  // 入力値
   var text = document.forms.messageForm.message.value;
-  // 入力チェック
   if(text.length === 0) {
-    // 画面に表示
-    document.getElementById("log").innerText = "文字が入力されていません";
-    // 処理中止
+    document.getElementById("log").innerText = "NG";
     return false;
   }
-  // 保存先クラスを指定
   var MessageClass = ncmb.DataStore("MessageClass");
-  // クラスのインスタンスを生成
   var messageClass = new MessageClass();
-  // 値の設定と保存処理の実行
   messageClass.set("message", text)
-              .save()
-              .then(function(){
-                /* 保存に成功した場合の処理 */
-                // 画面に表示
-                document.getElementById("log").innerText = "メッセージが保存されました！"
-              })
-              .catch(function(err){
-                /* 保存に失敗した場合の処理 */
-                // 画面に表示
-                document.getElementById("log").innerText = "Error:" + err.code;
-              });
+          .save()
+          .then(function(){
+            document.getElementById("log").innerText = "OK"
+          })
+          .catch(function(err){
+            document.getElementById("log").innerText = "Error:" + err.code;
+          });
 }
 ```
 ]
@@ -1579,8 +1654,11 @@ function sendMessage() {
 
 ### 6.3. コピペで機能追加
 
+こんな感じになればOKです！
+
 .center[<img src="readme-img/mb_31.png" alt="mb_31.png" width="600px">]
 
+これで全て作業は完了です🎉🎉🎉正しく動くか動作を確認しましょう！
 
 ---
 .bottom-bar[
@@ -1589,7 +1667,12 @@ function sendMessage() {
 
 ### 6.4. 動作確認
 
-.center[<img src="readme-img/mb_32.png" alt="mb_32.png" width="200px">]
+.col-6[
+プレビュー画面で確認しましょう。<br>テストメッセージ（なんでもOK）を入力してみましょう。
+]
+.col-6[
+.center[<img src="readme-img/mb_32.png" alt="mb_32.png" width="250px">]
+]
 
 ---
 .bottom-bar[
@@ -1598,7 +1681,13 @@ function sendMessage() {
 
 ### 6.4. 動作確認
 
-.center[<img src="readme-img/mb_33.png" alt="mb_33.png" width="200px">]
+.col-6[
+「送信」ボタンを押してみましょう。<br>
+結果として下に「OK」と出ればOKです！
+]
+.col-6[
+.center[<img src="readme-img/mb_33.png" alt="mb_33.png" width="250px">]
+]
 
 ---
 .bottom-bar[
@@ -1606,6 +1695,9 @@ function sendMessage() {
 ]
 
 ### 6.4. 動作確認
+
+クラウド側も確認してみましょう。ニフクラ mobile backend のタグを開きます。<br>
+APIキー画面が表示されているので、「OK」をクリックして閉じましょう。
 
 .center[<img src="readme-img/mb_34.png" alt="mb_34.png" width="600px">]
 
@@ -1615,6 +1707,9 @@ function sendMessage() {
 ]
 
 ### 6.4. 動作確認
+
+ダッシュボードが表示されるので、左側の「データストア」をクリックします。<br>
+「MessageClass」をクリックすると、入力したデータが保存されていることを確認できます。
 
 .center[<img src="readme-img/mb_35.png" alt="mb_35.png" width="900px">]
 
@@ -1632,7 +1727,17 @@ layout: false
   7.&nbsp;アプリを使って自己紹介しよう！
 ]
 
-自己紹介手順
+.col-7[
+作ったプロフィールアプリを使って、<br>自己紹介をしましょう😄
+
+* みんなのパソコンのプレビュー画面をのぞきにいきましょう！
+* コメントを残してあげましょう！
+* せっかく作ったアプリなので、勝手に書き変えたりはしないでね！
+* 終わったらクラウドに保存されたメッセージを確認しましょう！
+]
+.col-5[
+.center[<img src="readme-img/mb_32.png" alt="mb_32.png" width="250px">]
+]
 
 ---
 layout: true
@@ -1650,7 +1755,10 @@ layout: false
 # まとめ
 ## 今日できたこと！
 
-まとめ
+* Monacaを使ってアプリを作った！
+  * HTMLの書き方を学習
+* ニフクラ mobile backend を使ってクラウドを使ってみた！
+  * クラウドにデータが保存できることを学習
 
 ---
 .bottom-bar[
@@ -1658,6 +1766,11 @@ layout: false
 ]
 
 # まとめ
+.col-7[
 ## 参考書の紹介
 
+参考書「 .font_color_ncmb_blue[**Monaca と ニフクラ mobile backend で学ぶ はじめてのプログラミング ～クラウド連携アプリ開発編～**] 」は今回少しだけ使ってみた<br>.color_pink[__クラウド__]の詳しい使い方がのっている学習参考書です。<br>今日の体験では使い方の詳しい解説はできなかったので、ぜひお家に帰ってから参考書で勉強してみてくださいね👍
+]
+.col-5[
 .center[<img src="readme-img/education_mb.png" alt="education_mb.png" width="300px">]
+]
