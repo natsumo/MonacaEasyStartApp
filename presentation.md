@@ -32,9 +32,11 @@ class: center, middle, animation-fade
 ---
 layout: false
 # 今日の資料
-.center[
-## http://bit.ly/MonacaEasyStartApp
-]
+
+* ダウンロード（PDF)
+  * `http://bit.ly/MonacaEasyStartApp_pdf`
+* ブラウザ（HTML）
+  * `http://bit.ly/MonacaEasyStartApp_html`
 
 ---
 # 教えてくれる人
