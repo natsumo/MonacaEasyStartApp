@@ -541,7 +541,7 @@ bodyタグの間に書いた内容がアプリの画面に表示される仕組�
   3.&nbsp;Monacaの使い方練習
 ]
 
-「.color_pink[__Ctrl]__」+「.color_pink[__S__]」キーを同時に押して、保存をしてみましょう。
+「.color_pink[__Ctrl__]」+「.color_pink[__S__]」キーを同時に押して、保存をしてみましょう。
 
 .center[<img src="readme-img/keyboad_04.png" alt="keyboad_04.png" width="700px">]
 
@@ -555,6 +555,7 @@ index.html が保存されて、プレビュー画面も更新されましたね
 .center[<img src="readme-img/Monaca09.png" alt="Monaca09.png" width="750px">]
 
 練習はおしまいです！いよいよアプリを作っていきますよ🤩
+
 ---
 layout: true
 class: center, middle, animation-fade
@@ -574,8 +575,6 @@ layout: false
 .center[<img src="readme-img/complete.png" alt="complete.png" width="180px">]
 
 でもどうやって書いたらいいのかな？？書くために必要なパーツを教えます☝️
-
-
 
 ---
 .bottom-bar[
@@ -881,9 +880,7 @@ layout: false
 * `width` : 画像の横の長さを指定します
 * `height` : 画像の縦の長さを指定します
 
-```html
-<img src="image.png" width="150" height="150">
-```
+.center[<img src="readme-img/img.png" alt="img.png" width="1000px">]
 
 ---
 .bottom-bar[
@@ -892,9 +889,7 @@ layout: false
 
 ## 画像
 
-```html
-<img src="image.png" width="150" height="150">
-```
+.center[<img src="readme-img/img.png" alt="img.png" width="1000px">]
 
 .center[<img src="readme-img/Monaca18.png" alt="Monaca18.png" width="750px">]
 

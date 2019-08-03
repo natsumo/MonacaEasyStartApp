@@ -18,7 +18,6 @@ $font-fixed       : 'Lucida Console', Monaco, monospace;
 $margin           : 20px;
 $iframe-scale     : 1.5;
 
-
 // CSS Base
 // ---------------------------------------------------------------------------
 
@@ -219,13 +218,6 @@ blockquote {
 .footnote {
   position: absolute;
   bottom: 1em;
-}
-/* 寄せ */
-.center {
-  text-align: center;
-}
-.left {
-  text-align: left;
 }
 /* 右下に表示 */
 .right_under {
