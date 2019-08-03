@@ -1188,7 +1188,7 @@ layout: false
 
 ニフクラ mobile backend の利用登録をしましょう。<br>
 ブラウザで別のタブを開いて、次のURLを入力してEnterキーを押します。<br>
-https://mbaas.nifcloud.com/　
+https://mbaas.nifcloud.com/
 
 .center[<img src="readme-img/mb_03.png" alt="mb_03.png" width="650px">]
 .size_small_7[
@@ -1471,7 +1471,7 @@ http://bit.ly/MonacaEasyStartApp
 ### 6.2. ニフクラ mobile backend の準備
 
 Monacaの開発画面のタブに戻って、index.html を編集します。<br>
-index.html に元々ある.color_pink[__scriptタグ__]（`<script>`, `</script>`）内に次の内容をコピペします。<br>
+index.html に元々ある.color_pink[__scriptタグ__]（ `<script>`, `</script>` ）内に次の内容をコピペします。<br>
 まずは先ほどダウンロードした資料のタブを開いて、次のコードをマウスで選択し、__右クリック__ して「コピー」をクリックします。
 
 ```js
@@ -1490,7 +1490,7 @@ var ncmb = new NCMB(applicationKey, clientKey);
 
 ### 6.2. ニフクラ mobile backend の準備
 
-次にMonacaの開発画面のタブに戻って、 `<script>`と`</script>`の間で右クリックをして「ペースト」をクリックします。<br>
+次にMonacaの開発画面のタブに戻って、scriptタグ の間で右クリックをして「ペースト」をクリックします。<br>
 次のように表示されればOKです。
 
 .center[<img src="readme-img/mb_22.png" alt="mb_22.png" width="550px">]
@@ -1505,7 +1505,6 @@ var ncmb = new NCMB(applicationKey, clientKey);
 `YOUR_APPLICATION_KEY`, `YOUR_CLIENT_KEY`の部分を書き換えます。
 
 .center[<img src="readme-img/mb_23.png" alt="mb_23.png" width="600px">]
-
 ---
 .bottom-bar[
   6.&nbsp;TRY：コメント入力機能をつけよう
@@ -1540,7 +1539,6 @@ Monacaの開発画面のタブに戻ります。<br>
 こんな感じで書き変わればOKです！続いてもう一度同じように `YOUR_CLIENT_KEY` も書き変えます。
 
 .center[<img src="readme-img/mb_26.png" alt="mb_26.png" width="800px">]
-
 ---
 .bottom-bar[
   6.&nbsp;TRY：コメント入力機能をつけよう
@@ -1575,7 +1573,6 @@ Monacaの開発画面のタブに戻ります。<br>
 これでクラウドの準備は完了です🎉
 
 .center[<img src="readme-img/mb_29.png" alt="mb_29.png" width="900px">]
-
 ---
 .bottom-bar[
   6.&nbsp;TRY：コメント入力機能をつけよう
@@ -1618,7 +1615,7 @@ index.html の bodyタグ の一番下に、次の内容をコピペします。
 ### 6.3. コピペで機能追加
 
 送信ボタンを押すとメッセージが保存されていくように処理を書いていきましょう<br>
-先ほど書いた内容に続けて、scriptタグ （`<script>`, `</script>`）内に次の内容をコピペします。（さっきと同じようにやろう！）
+先ほど書いた内容に続けて、scriptタグ 内に次の内容をコピペします。（さっきと同じようにやろう！）
 
 .size_small_5[
 ```js
