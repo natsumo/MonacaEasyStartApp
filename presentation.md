@@ -18,7 +18,7 @@ class: impact
 .footnote[
 .left[
 .size_small_7[
-Copyright 2019 FUJITSU CLOUD TECHNOLOGIES LIMITED<br>
+Copyright 2020 FUJITSU CLOUD TECHNOLOGIES LIMITED<br>
 Created by natsumo ikeda
 ]
 ]
@@ -31,38 +31,7 @@ class: center, middle, animation-fade
 
 ---
 layout: false
-# 今日の資料
 
-* ダウンロード（PDF)
-  * `http://bit.ly/MonacaEasyStartApp_pdf`
-* ブラウザ（HTML）
-  * `http://bit.ly/MonacaEasyStartApp_html`
-
----
-# 教えてくれる人
-
-.col-7[
-## 池田 夏藻（イケダ ナツモ）
-富士通クラウドテクノロジーズ株式会社<br>
-ニフクラ mobile backend 企画チームに所属<br><br>
-<img src="readme-img/mb_logo.png" alt="mb_logo.png" width="500px">
-
-]
-
-.col-5[
-.center[
-<img src="readme-img/takano.png" alt="takano.png" width="300px">
-.size_small_7[
-ニフクラ mobile backend オリジナルキャラクター タカノくん
-]
-]
-]
-
-.bottom-bar[
-  はじめに
-]
-
----
 # 何ができるの？
 ## プロフィールアプリを作りましょう
 
@@ -1763,7 +1732,10 @@ layout: false
 .col-7[
 ## 参考書の紹介
 
-参考書「 .font_color_ncmb_blue[**Monaca と ニフクラ mobile backend で学ぶ はじめてのプログラミング ～クラウド連携アプリ開発編～**] 」は今回少しだけ使ってみた<br>.color_pink[__クラウド__]の詳しい使い方がのっている学習参考書です。<br>今日の体験では使い方の詳しい解説はできなかったので、ぜひお家に帰ってから参考書で勉強してみてくださいね👍
+参考書「 .font_color_ncmb_blue[**Monaca と ニフクラ mobile backend で学ぶ はじめてのプログラミング ～クラウド連携アプリ開発編～**] 」は今回少しだけ使ってみた<br>.color_pink[__クラウド__]の詳しい使い方がのっている学習参考書です。ぜひお家に帰ってから参考書で勉強してみてくださいね👍
+
+参考書ご紹介ページ
+https://mbaas.nifcloud.com/education/index.html
 ]
 .col-5[
 .center[<img src="readme-img/education_mb.png" alt="education_mb.png" width="300px">]
